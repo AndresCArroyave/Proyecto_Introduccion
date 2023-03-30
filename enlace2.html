@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Formulario</title>
+</head>
+<body class="tre">
+    <header>
+        <nav>
+            <h1><a href="index.html">INICIO</a></h1>
+            <ul>
+                <li><a href="enlace1.html">LISTAS</a></li>
+                <li><a href="enlace2.html">FORMULARIO</a></li>
+                <li><a href="#">MULTIMEDIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <center><table border=""> 
+            <tr>
+                <th>&nbsp USUARIO &nbsp &nbsp</th>
+                <td colspan="4"></td>
+                <td colspan="3" style="text-align: center;">Fecha</td>
+            </tr>
+            <tr>
+                <th>&nbsp Horario</th>
+                <td>&nbsp Dia &nbsp </td>
+                <td><input type="date"></td>
+                <td>Hora</td>
+                <td><input type="time"></td>
+                <td><input type="number" placeholder="Dia" min="1" max="11"> </td> 
+                <td><input type="number" placeholder="Mes" min="1" max="11"> </td> 
+                <td><input type="number" placeholder="Año" min="1" max="11"> </td> 
+                 
+            </tr>
+
+            <table border="" style="width: 52%;"><br>
+            <tr>
+                <tr>
+                    
+                    <th colspan="4"> Tipo De Evidencia Para Evaluar</th>
+                    <th colspan="2" style="text-align: center;">Nota</th>
+                    
+                </tr>
+                <tr>
+                    <th class="yuli">&nbsp Puntaje</th>
+                    <td colspan="3">&nbsp Crea formularios utilizando los diferentescontroles HTML5 &nbsp </td>
+                    <td colspan="2"></td>
+                </tr>
+            
+            </tr>
+
+           
+            </table>
+
+
+        </table>
+    </center> 
+
+    </section>
+    <h1> <center> FORMULARIO DE INCRIPCION </center> </h1>
+    <h4> <center>TORNEO-VIDEJUEGOS </center></h4>      
+    <section class="FINCRIPCION">
+        <form>
+           <center> <fieldset class="fre">
+                <legend class="tulo">DATOS DEL JUGADOR</legend>
+                <table>
+                 <tr>
+                        <th>Identificacion</th>
+                        <td><input type="number" placeholder="Obligatorio max[17]Nros "  maxlenth="17"></td>
+                        <th>Fecha de nacimiento*</th>
+                        <td><input type="date"></td>
+                     <td rowspan="5">
+                        <fieldset> 
+                            <legend>Tiempo Libre</legend>
+                            <input type="checkbox"> Estudio <br>
+                            <input type="checkbox"> Deporte <br>
+                            <input type="checkbox"> Redes Sociales<br>
+                            <input type="checkbox"> Musica <br>
+                            <input type="checkbox"> Video Juegos <br>
+                        </fieldset>
+                     </td>
+                 </tr>
+
+                 <tr>
+                    <th>Apellidos</th>
+                    <td><input type="text" placeholder="Obligatorio max[20]letras " maxlength="20"></td>
+                    <th>Edad</th>
+                    <td> <input type="number" min="1" max="100" placeholder="Edad"> </td>
+                 </tr>
+
+                 <tr>
+                    <th>Nombre</th>
+                    <td><input type="text" placeholder="Obligatorio max[20]letras" maxlength="20"></td>
+                    <th>Mes Nacimiento</th>
+                    <td><input type="month"></td>
+                </tr>
+    
+
+                 <tr>
+                    <th>Correo</th>
+                    <td><input type="email" placeholder="Tu email"></td>
+                    <th>Genero</th>
+                    <td><input type="radio" name="genero" id=""> Masculino <input type="radio" name="genero" id=""> Femenino</td>
+                 </tr> 
+
+                 <tr>
+                    <th>Celular</th>
+                    <td><input type="tel" placeholder="###-###-##-##" maxlength="11"></td>
+                    <th>Comuna(<a href="#">*Barrios*</a>)</th>
+                    <td><select name="barrios" id="barrios" style="width: 160px;"><option value="">Elije una Opcion</option></select></td>
+                 </tr>
+                </table>
+            </fieldset></center>
+
+            <h1 style="text-align: center;"> ***SELECCIONAR VIDEOJUEGOS***</h1>
+            <table style="margin: 0 auto;" >
+            <tr>
+                <th>VIDEJUEGOS</th>
+                <th>NIVEL</th>
+                <th>CREDITOS</th>
+                <th>SUBTOTAL</th>
+                <th>HORARIO DE JUEGO</th>
+            </tr>
+
+            <tr>
+                <td><select name="Matematicas"  style="width: 150px;"> <option value="">Elija una opcion</option></select></td>
+                <td><input type="number" min="0" max="10"></td>
+                <td><input type="text" placeholder="Valor credito"></td>
+                <td><input type="text"></td>
+                <td><input type="submit" value="Calcular"></td>
+                <td><select name="Elija una opcion"> <option value="">Elija una opcion</option></select></td>
+            </tr>
+
+            <tr>
+                <td><select name="Ingles"  style="width: 150px;"> <option value="">Elija una opcion</option></select></td>
+                <td><input type="number" min="0" max="10"></td>
+                <td><input type="text" placeholder="Valor credito"></td>
+                <td><input type="text"></td>
+                <td><select name="Elija una opcion"> <option value="">Elija una opcion</option></select></td>
+            </tr>
+
+            <tr>
+                <td><select name="Filosofia"  style="width: 150px;"> <option value="">Elija una opcion</option></select></td>
+                <td><input type="number" min="0" max="10"></td>
+                <td><input type="text" placeholder="Valor credito"></td>
+                <td><input type="text"></td>
+                <td><select name="Elija una opcion"> <option value="">Elija una opcion</option></select></td>
+            </tr>
+
+            <tr>
+                <td><select name="Quimica" style="width: 150px;"> <option value="">Elija una opcion</option></select></td>
+                <td><input type="number" min="0" max="10"></td>
+                <td><input type="text" placeholder="Valor credito"></td>
+                <td><input type="text"></td>
+                <td><select name="Elija una opcion"> <option value="">Elija una opcion</option></select></td>
+            </tr>
+
+            <tr>
+                <td><select name="Español"  style="width: 150px;"> <option value="">Elija una opcion</option></select></td>
+                <td><input type="number" min="0" max="10"></td>
+                <td><input type="text" placeholder="Valor credito"></td>
+                <td><input type="text"></td>
+                <td><select name="Elija una opcion"> <option value="">Elija una opcion</option></select></td>
+            </tr>
+
+            <tr>
+                <th>.....</th>
+                <th>Nro<br>Creditos</th>
+                <th>....</th>
+                <th>Total</th>
+            </tr>
+
+            <tr>
+                <th></th>
+                <th><input type="number" min="0" max="10"></th>
+                <th></th>
+                <th><input type="text"></th>
+                <td><input type="submit" value="Calcular"></td>
+            </tr>
+
+
+            </table>
+        </form>
+    </section>
+</main>
+<footer>
+    <hr>
+    Andres Camilo Arroyave Mejia <br>
+    Desarrollo de Software <br>
+    Introduccion a la Programacion <br>
+    CESDE-2023
+</footer>
+</body>
+</html>

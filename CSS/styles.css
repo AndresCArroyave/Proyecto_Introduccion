@@ -1,0 +1,73 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1 {  
+   color: white;
+   font-size: 45px;
+   
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+body{
+    background-image: url(../img/fondo.jpeg);
+}
+
+.yuji{
+    background-image: url(../img/fondo.jpeg);
+}
+
+iframe{
+    width: 25%;
+    padding-left: 5%;
+}
+
+h2{
+    color: white;
+}
+
+dl{
+    color: white;
+}
+
+footer{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th{color: white;
+}
+
+.fre{
+    width: 900px; height: 0%;
+}
+
+.yuli{ color: black;
+}
+.tulo{
+    color: white;
+}
+
+.tre{
+    background-color: black;
+}
