@@ -11,7 +11,7 @@ nav {
 h1 {  
    color: white;
    font-size: 45px;
-   
+   text-align: center;
 }
 
 ul li {
@@ -30,20 +30,21 @@ a:hover{
 }
 
 body{
-    background-image: url(../img/fondo.jpeg);
+    background-image: url(../img/fondo2.jpg);
 }
 
 .yuji{
-    background-image: url(../img/fondo.jpeg);
+    background-image: url(../img/fondo2.jpg);
 }
 
 iframe{
-    width: 25%;
-    padding-left: 5%;
+    width: 30%;
+    padding-left: 10%;
 }
 
 h2{
     color: white;
+    text-align: center;
 }
 
 dl{
@@ -62,12 +63,53 @@ th{color: white;
     width: 900px; height: 0%;
 }
 
-.yuli{ color: black;
+.yuli{ color: white;
 }
 .tulo{
     color: white;
 }
 
-.tre{
-    background-color: black;
+.d-block { 
+    height: 550px;
+    margin-left: 12%;
+}
+    
+p{
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100%;
+}
+
+.refe{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
 }
